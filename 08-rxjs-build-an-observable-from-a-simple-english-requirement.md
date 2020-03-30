@@ -49,7 +49,7 @@ shouldShowSpinner
 
 - [01:32](https://egghead.io/lessons/rxjs-build-an-observable-from-a-simple-english-requirement#t=92) Not only does this keep our RxJS code more readable, almost flowing like an English sentence, but it also allows us to reuse some of these should we need to do so later. And we will need to.
 
-# Personal Take
+## Personal Take
 
 ### Highest Level of Abstraction Achieved! 🎉
 
@@ -58,6 +58,6 @@ shouldShowSpinner
 - _But_ we're not worrying about how it does that just yet.
 - When a task starts, switch to displaying the spinner, until it's time to hide it...
 
-    shouldShowSpinner.pipe(
-    	switchMap(() => showSpinner.pipe(takeUntil(shouldHideSpinner)))
-    ).subscribe();
+  shouldShowSpinner.pipe(
+  switchMap(() => showSpinner.pipe(takeUntil(shouldHideSpinner)))
+  ).subscribe();

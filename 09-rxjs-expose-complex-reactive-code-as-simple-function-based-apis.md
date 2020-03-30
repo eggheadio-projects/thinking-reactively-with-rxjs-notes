@@ -101,7 +101,7 @@ export function existingTaskCompleted() {
 
 - [02:37](https://egghead.io/lessons/rxjs-expose-complex-reactive-code-as-simple-function-based-apis#t=157) To keep our features usable in as many places as possible, we exposed two simple functions to the outside world, and we connected those function calls to the sources that trigger all of our internal reactive logic via subject.
 
-# Personal Take
+## Personal Take
 
 ### Now we can focus on making `taskStarts` and `taskCompletions` emit.
 
@@ -113,9 +113,11 @@ Tasks could be:
 - etc
 
 **To be widely applicable, we'll go generic and use a function called `newTaskStarted`**
+
 - (and `existingTaskCompleted` for when a task is completed)
 - Change each `observable` to a `Subject`
 - Then, inside these functions, call the associated subject with `next()`
+
   - ie: `export function newTaskStarted() { taskStarts.next() }`
 
 - Then we import these functions into our React app's "slow" component, and call the `newTaskStarted` function when the associated buttons are clicked.

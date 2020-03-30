@@ -125,11 +125,12 @@ const shouldShowSpinner = currentLoadCount.pipe(
 
 [2:01]() Even though we could have done this with `scan()`, with `pairwise()` we signal our intent much better to other developers reading this. The more operators we know, the bigger the chance that we're going to find a nicely named obstruction that signifies intent much better than a custom solution.
 
-# Personal Take
+## Personal Take
 
 ### **Now we can move up a layer in abstraction...**
 
 - When does our loader need to hide/show?
+
   - hide when the async count gets to `0`
   - show when the async count goes from `0` to `1`
 

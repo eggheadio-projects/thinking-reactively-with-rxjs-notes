@@ -86,7 +86,7 @@ const currentLoadCount = loadVariations.pipe(
 )
 ```
 
-# Personal Take
+## Personal Take
 
 - Taking a look at an emitter similar to our app, we can see that `scan` will keep separate states for separate subscribers, allowing us to return a running total for each subscriber
 - Another way to consider this:

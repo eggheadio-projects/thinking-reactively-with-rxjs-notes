@@ -41,7 +41,7 @@
 
 - [02:03](https://egghead.io/lessons/rxjs-use-reactive-rxjs-based-solutions-for-complex-problems#t=123) The moment you introduce the concept of time in an app, however simple it may be initially, there's a chance that future requirements will build on that concept. You'll have ever more complex scenarios where you have to consider time, as we shall see.
 
-## Personal Take
+### Personal Take
 
 Decision to use RxJS:
 

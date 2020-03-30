@@ -138,7 +138,7 @@ const showSpinner = new Observable(() => {
 
 - [03:23](https://egghead.io/lessons/rxjs-encapsulate-complex-imperative-logic-in-a-simple-observable#t=203) To recap, we've seen how to wrap complex JavaScript-based logic inside an observer primitive where we took full advantage of its setup and tear down mechanics. It fits in neatly within our streams that switches to it whenever it's time to show the spinner and disposes of it whenever it's time to hide it.
 
-# Personal Take
+## Personal Take
 
 ### Display and Hide the Spinner:
 

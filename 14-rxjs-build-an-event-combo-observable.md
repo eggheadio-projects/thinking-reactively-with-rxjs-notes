@@ -291,7 +291,7 @@ function keyCombo(keyCombo) {
 
 - [08:30](https://egghead.io/lessons/rxjs-build-an-event-combo-observable#t=510) We then learned about the various take operators and how they can be used to dispose of the source when different events happen.
 
-# Personal Take
+## Personal Take
 
 ### Combo Observable
 

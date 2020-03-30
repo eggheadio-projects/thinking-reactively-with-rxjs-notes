@@ -119,7 +119,7 @@ const shouldShowSpinner = spinnerActivated.pipe(
 
 - [03:03](https://egghead.io/lessons/rxjs-extend-your-reactive-logic-using-observable-like-proxies-that-delay-or-drop-events#t=183) Because we created well-encapsulated building blocks, we could simply declare another well-defined building block and insert it kind of like a proxy between these sources (`spinnerDeactivated/spinnerActivated`) and our top-level consumer (`shouldShowSpinner`). Our proxy simply responds to events from this (`spinnerActivated`), delaying them as necessary and fires them to the next block on the chain.
 
-# Personal Take
+## Personal Take
 
 ### **What if our async call is too quick to show the spinner?**
 

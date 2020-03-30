@@ -63,7 +63,7 @@ const currentLoadCount = loadVariations.pipe(
 )
 ```
 
-# Personal Take
+## Personal Take
 
 ### What happens if we get more `taskCompletions` than `taskStarts`?
 

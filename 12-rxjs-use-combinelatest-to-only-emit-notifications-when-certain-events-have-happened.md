@@ -88,7 +88,7 @@ const shouldHideSpinner = combineLatest(spinnerDeactivated, flashThreshold);
 
 - [03:40](https://egghead.io/lessons/rxjs-use-combinelatest-to-only-emit-notifications-when-certain-events-have-happened#t=220) To recap, we really spent some time to understand and then rejuggle our initial requirement into something that makes a bit more sense. We used _combineLatest()_ to wait for two separate events to happen. We created another proxy between events of spinner becoming deactivated (_spinnerDeactivated_) in our disposal of the spinner in the top-level stream (_shouldHideSpinner_).
 
-# Personal Take
+## Personal Take
 
 **But now our spinner looks glitchy when action takes slightly more than 2 seconds...**
 
@@ -109,13 +109,10 @@ const shouldHideSpinner = combineLatest(spinnerDeactivated, flashThreshold);
 
 - Extract `timer(2000)` as our `flashThreshold`, or the minimum amount of time we want something to show on screen.... Replace any instance of `timer(2000)`
 
- ```js
- const flashThreshold = timer(2000)
+```js
+const flashThreshold = timer(2000);
 
- const shouldHideSpinner = combineLatest(
-  spinnerDeactivated,
-  flashThreshold
- )
- ```
+const shouldHideSpinner = combineLatest(spinnerDeactivated, flashThreshold);
+```
 
 - Spinner now hides _either_ when it has been showing for 2 seconds, _or_ when the number of tasks reaches 0 (in the case when this takes _longer than 2 seconds_)

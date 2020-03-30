@@ -56,7 +56,7 @@ export default {};
 
 - [02:21](https://egghead.io/lessons/rxjs-break-down-a-requirement-into-small-problems#t=141) The great thing about breaking down our problems into small chunks like we did with the floors of our building is that we can define placeholders for any unknown sources and assume they already exist. This keeps us focused on solving our problem, one floor at a time.
 
-## Personal Take
+### Personal Take
 
 ### Breaking Down the Problem:
 

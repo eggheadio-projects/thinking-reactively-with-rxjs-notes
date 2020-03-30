@@ -102,7 +102,7 @@ const currentLoadCount = loadVariations.pipe(
 
 - [02:45](https://egghead.io/lessons/rxjs-pipe-events-to-numbers-and-maintain-a-running-count-using-the-scan-operator#t=165) We started from some very raw streams, and we used those to create two more specialized streams. Then we combined those to create an even more useful stream, all the way up to this. A stream that whenever somebody subscribes to it, they'll get the current number of loads in our application.
 
-# Personal Take
+## Personal Take
 
 ### First Problem:
 
@@ -151,4 +151,4 @@ const currentLoadCount = loadVariations.pipe(
   })
 ```
 
-  _We can now remove our starting value `0`, and let our `startsWith(0)` flow through the `scan` function to return `0` initially_
+_We can now remove our starting value `0`, and let our `startsWith(0)` flow through the `scan` function to return `0` initially_

@@ -230,7 +230,7 @@ const spinnerWithStats = loadStats.pipe(
 
 - [07:09](https://egghead.io/lessons/rxjs-maintain-self-resetting-state-in-your-observable-streams-using-the-scan-operator#t=429) In this case, we found another _Observable_ that it had to share some life cycle with, and we just combined them into this other stream. It's at this upper level where we decide its life cycle, and with it, the clean-up of the state.
 
-# Personal Take
+## Personal Take
 
 ### Percentage Progress Indicator...
 
@@ -282,8 +282,8 @@ const loadStats = currentLoadCount.pipe(
 
 ```js
 const spinnerWithStats = loadStats.pipe(
-  switchMap( stats => showSpinner(stats.total, stats.completed))
-)
+  switchMap(stats => showSpinner(stats.total, stats.completed))
+);
 ```
 
 - This ensures that the `loadStats` state is local to the instance of spinner that it is tied to
