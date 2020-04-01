@@ -3,7 +3,7 @@
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/447/full/EGH_ThinkingRxJs.png" width="300"/></p>
 
     
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
     
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
@@ -64,5 +64,8 @@
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 <table>
   <tr>
-    <td align="center"><a href="https://laurosilva.com"><img src="https://avatars2.githubusercontent.com/u/57044804?v=4" width="100px;" alt=""/><br /><sub><b>Lauro Silva</b></sub></a><br /><a href="#content-laurosilvacom" title="Content">🖋</a></td>
+  <td align="center"><a href="https://github.com/thecodepixi"><img src="https://avatars1.githubusercontent.com/u/16492325?s=400&u=7554de63a4d717c1668fb37f8726fd9479267e76&v=4" width="100px;" alt=""/><br /><sub><b>Emily Harber</b></sub></a><br /><a href="#content-thecodepixi" title="Content">🖋</a>  </td>
+        <td align="center"><a href="https://laurosilva.com"><img src="https://avatars2.githubusercontent.com/u/57044804?v=4" width="100px;" alt=""/><br /><sub><b>Lauro Silva</b></sub></a><br /><a href="#content-laurosilvacom" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/lsminter"><img src="https://avatars2.githubusercontent.com/u/26470581?s=400&u=89e0c4f7db5c054125a372dc17b4590e297ac20d&v=4" width="100px;" alt=""/><br /><sub><b>Lucas Minter</b></sub></a><br /><a href="#review-lsminter" title="Review">👀</a>  </td>
+      </td>
 </table>
