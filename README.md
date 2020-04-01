@@ -2,6 +2,12 @@
 
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/447/full/EGH_ThinkingRxJs.png" width="300"/></p>
 
+    
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+    
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+</p>
+
 - In this course, **you will use RxJS to build a loading spinner in an app** that meets the ever-changing requirements from a mock Product Manager.
 - You'll also learn how to **implement a "Konami Code" style feature** that listens for a correct sequence of keys to be typed in a set amount of time.
 - Follow the thought process that Rares uses as he **breaks problems down into manageable pieces that remain flexible**, and become more comfortable solving problems reactively.
@@ -52,3 +58,11 @@
 
 - These are community notes that I hope everyone who studies benefits from.
 - If you notice areas that could be improved please **feel free to open a PR**!
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+<table>
+  <tr>
+    <td align="center"><a href="https://laurosilva.com"><img src="https://avatars2.githubusercontent.com/u/57044804?v=4" width="100px;" alt=""/><br /><sub><b>Lauro Silva</b></sub></a><br /><a href="#content-laurosilvacom" title="Content">🖋</a></td>
+</table>
